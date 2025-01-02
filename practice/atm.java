@@ -15,10 +15,13 @@ Allow the user to keep performing transactions until they choose to exit.
 */
 
 import java.util.Scanner;
-
 public class MyClass {
-    
-    public static void deposit(double amount){
+     public static void balance(double amount ,double withdrawal){
+      double cash =  amount - withdrawal;
+         System.out.printf("You have %.2f\n", cash);
+}
+      
+public static void deposit(double amount){
     System.out.printf("You have deposited %.2f\n", amount);
 }
  public static void withdraw(double withdrawal){
@@ -29,12 +32,9 @@ public class MyClass {
     System.out.print("Enter Deposit Amount: ");
     double amount = in.nextDouble();
     deposit(amount);
-
-
     System.out.println("Enter  Amount: ");
     double withdrawal= in.nextDouble();
    withdraw(withdrawal);
-    
+    balance(amount,withdrawal);
   }
 }
-
