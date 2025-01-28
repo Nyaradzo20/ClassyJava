@@ -21,7 +21,7 @@ public class duplicateRemove {
             System.out.print(i.next() + " " );
         }
 
-        System.out.println(set); // Add a newline at the end
+        System.out.println(); // Add a newline at the end
 
         input.close(); // Close the scanner
     }
