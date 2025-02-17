@@ -22,7 +22,7 @@ public class grades{
          Science = in.nextDouble();
         System.out.println("Enter your English grade");
           English = in.nextDouble();
-         System.out.printf();
+         System.out.println();
 
     }
 }
