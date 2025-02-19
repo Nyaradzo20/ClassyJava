@@ -6,13 +6,13 @@ public class MyThread  extends Thread{
         int count = 0;  
        while ( count < 5) { 
            System.out.println("Hello from thread");
-           //try{
-          // Thread.sleep(5000);
-           //}
-           //catch (InterruptedException e)
-           //{
-           // System.out.println("Thread was interrupted");
-           //}
+           try{
+          Thread.sleep(5000);
+           }
+           catch (InterruptedException e)
+           {
+           System.out.println("Thread was interrupted");
+           }
            count++;
 
 }
