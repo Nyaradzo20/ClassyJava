@@ -14,7 +14,7 @@ public class worker implements  Runnable{
             int sleepfor  = ThreadLocalRandom.current().nextInt(min, max);
             System.out.println("Random delay for " + " "+ sleepfor + "ms");
             try{
-           TimeUnit.MILLISECONDS.sleep(ThreadLocalRandom.current().nextInt(min, max));
+           TimeUnit.MILLISECONDS.sleep(sleepfor);
             }
             catch (InterruptedException e)
             {
