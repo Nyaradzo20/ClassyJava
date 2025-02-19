@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "MyThread",
+            "request": "launch",
+            "mainClass": "threads.MyThread",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "threads.Main",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "main",
+            "request": "launch",
+            "mainClass": "threads.main",
+            "projectName": "ClassyJava_f8c7242b"
+        }
+    ]
+}
