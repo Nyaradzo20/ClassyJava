@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "hello",
+            "request": "launch",
+            "mainClass": "hello",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "worker",
+            "request": "launch",
+            "mainClass": "threads.worker",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "MyThread",
             "request": "launch",
             "mainClass": "threads.MyThread",
