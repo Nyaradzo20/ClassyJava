@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "BankAccount",
+            "request": "launch",
+            "mainClass": "threads.BankAccount",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "hello",
             "request": "launch",
             "mainClass": "hello",
