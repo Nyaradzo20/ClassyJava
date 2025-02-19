@@ -8,11 +8,11 @@ public class worker implements  Runnable{
     {
        
         int min = 1000;
-        int max = 5000;
+        int max = 3000;
         int count= 0;
         while ( count < 5) { 
             int sleepfor  = ThreadLocalRandom.current().nextInt(min, max);
-            System.out.println("Random delay for " + " "+ sleepfor + "ms");
+            System.out.println("Random delay for " + " "+ Thread.currentThread().getName()+ " "+ sleepfor + "ms");
             try{
            TimeUnit.MILLISECONDS.sleep(sleepfor);
             }
@@ -27,8 +27,11 @@ public class worker implements  Runnable{
     }
 
     public static void main(String[] args) {
-        Thread t1 = new Thread(new worker());
+        Thread t1 = new Thread(new worker(), "Nyari");
+        Thread t2 = new Thread(new worker(), "Nono");
+
         t1.start();
+        t2.start();
      }
          }
 
