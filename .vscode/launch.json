@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Clock",
+            "request": "launch",
+            "mainClass": "Clock",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "Bank",
             "request": "launch",
             "mainClass": "threads.Bank",
