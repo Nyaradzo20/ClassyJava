@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "File",
+            "request": "launch",
+            "mainClass": "inputoutput.File",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "file",
             "request": "launch",
             "mainClass": "inputoutput.file",

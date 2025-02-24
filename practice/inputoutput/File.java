@@ -9,6 +9,7 @@ public class File {
         try(FileWriter writer = new FileWriter("Output.txt")){
             writer.write("My file \n");
             writer.write("My file2");
+            writer.append("My files");
         }
         catch (IOException e){
            e.printStackTrace();
