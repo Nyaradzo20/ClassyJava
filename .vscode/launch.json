@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "file",
+            "request": "launch",
+            "mainClass": "inputoutput.file",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "file",
+            "request": "launch",
+            "mainClass": "file",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "writing",
+            "request": "launch",
+            "mainClass": "writing",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "writing_to_file",
+            "request": "launch",
+            "mainClass": "writing_to_file",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "Clock",
             "request": "launch",
             "mainClass": "Clock",
