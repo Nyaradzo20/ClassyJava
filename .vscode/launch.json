@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CustomerData",
+            "request": "launch",
+            "mainClass": "inputoutput.CustomerData",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "Bfferwriter",
             "request": "launch",
             "mainClass": "inputoutput.Bfferwriter",
