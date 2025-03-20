@@ -2,6 +2,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Client",
+            "request": "launch",
+            "mainClass": "Client",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "Server",
+            "request": "launch",
+            "mainClass": "Server",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "CustomerData",
             "request": "launch",
             "mainClass": "inputoutput.CustomerData",
