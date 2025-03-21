@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HelloWorldFx",
+            "request": "launch",
+            "mainClass": "HelloWorldFx",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "Server2",
+            "request": "launch",
+            "mainClass": "Server2",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "ChatClient",
+            "request": "launch",
+            "mainClass": "ChatClient",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
+            "name": "ChatServer",
+            "request": "launch",
+            "mainClass": "ChatServer",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "Client",
             "request": "launch",
             "mainClass": "Client",
