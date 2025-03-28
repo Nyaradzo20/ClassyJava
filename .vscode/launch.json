@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "weather",
+            "request": "launch",
+            "mainClass": "weather",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "HelloWorldFx",
             "request": "launch",
             "mainClass": "HelloWorldFx",

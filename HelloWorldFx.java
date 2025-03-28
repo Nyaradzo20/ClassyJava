@@ -30,10 +30,10 @@ public class HelloWorldFx extends Application {
         root.setCenter(message);
         root.setBottom(buttonBar);
 
-        Scene scene = new Scene(root, 450, 200);
+        Scene scene = new Scene(root, 450, 500);
         stage.setScene(scene);
         stage.setTitle("JavaFX Test");
-        stage.show();
+        stage.show(); 
     }
 
     public static void main(String[] args) {
