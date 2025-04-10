@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Box",
+            "request": "launch",
+            "mainClass": "Box",
+            "projectName": "ClassyJava_f8c7242b"
+        },
+        {
+            "type": "java",
             "name": "weather",
             "request": "launch",
             "mainClass": "weather",
